@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+  <title>VISITKORT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+
+  <style>
+    .visitkort {
+      height: 600px;
+      width: 1050px;
+      display: flex;
+      flex-direction: row;
+      position: relative;
+    }
+
+    .text {
+      height: 300px;
+      width: 1050px;
+      justify-content: right;
+      position: relative;
+      z-index: 1;
+    }
+
+    .name {
+      background-color: rgb(0, 0, 0);
+      display: flex;
+      flex-direction: row;
+      height: 300px;
+      color: white;
+    }
+
+    .social-media {
+      height: 50px;
+      width: 1050px;
+      justify-content: space-between;
+    }
+
+    .about {
+      height: 250px;
+      background-color: rgb(0, 0, 0);
+    }
+
+    .picture {
+      width: 450px;
+      height: 600px;
+      position: absolute;
+      z-index: 2;
+    }
+
+    .logo {
+      max-width: 40px;
+      max-height: 40px;
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+
+  <div class="visitkort">
+    <div class="picture">
+      <img src="pictures/ollie-guitar.png" alt="ollie-med-guitar" style="
+            width: 500px; 
+            height: 100%; 
+            transform: scale(1.2) scaleX(-1) translateY(-8%); 
+            object-position: -30px 100%;
+            object-fit: cover;
+            filter: contrast(140%) brightness(200%) grayscale(60%) sepia(5%);">
+    </div>
+    <div class="text">
+      <div style="
+            display: flex;
+            flex-direction: row;">
+        <div style="
+            background-color:rgb(0, 0, 0);
+            width: 300px;"></div>
+        <div class="name" style="
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            color: rgb(255, 248, 229);
+            font-family: comic neue;
+            ">
+          <div style="
+              font-size: 60px; 
+              margin-top: 30px;">OLLIE HARTMANN</div>
+          <div style="
+              margin-top: 15px;
+              font-size: 21px">MMD ERHVERSAKADEMI KØBENHAVN</div>
+          <div style="
+              margin-top: 30px;
+              font-size: 25px;">TLF: 27 21 22 40</div>
+          <div style="
+              font-size: 25px;">MAIL: OLJA0001@STUD.EK.DK</div>
+        </div>
+      </div>
+
+      <div class="social-media">
+        <div style="
+          display: flex;
+          flex-direction: row;
+          height: 50px;
+        ">
+          <div style="
+            background-color:rgb(255, 248, 229);
+            width: 300px;"></div>
+          <div style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color:rgb(255, 248, 229);
+            flex: 1.8;
+            font-family: comic neue;">
+            <div class="facebook">
+              <img class="logo" src="pictures/logo-facebook.png" alt="facebook-logo">
+            </div>
+            <div class="instagram">
+              <img class="logo" src="pictures/logo-instagram.png" alt="instagram-logo">
+            </div>
+            <div class="soundcloud">
+              <img class="logo" src="pictures/logo-soundcloud.png" alt="soundcloud-logo">
+            </div>
+          </div>
+          <div style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color:rgb(255, 248, 229);
+            font-family: comic neue;
+            flex: 1;
+            font-size: 23px;">@OLLIEHARTMANN</div>
+        </div>
+      </div>
+      <div class="about">
+        <div style="
+              display: flex;
+              flex-direction: row;
+              ">
+          <div style="
+              width: 400px;"> hallo</div>
+          <div style="
+              display: flex;
+              flex: 1;
+              color: rgb(255, 248, 229);
+              margin-top: 20px;
+              text-align: center;
+              font-family:Comic neue;
+              margin-right: 30px;
+              font-size: 25px;">
+            Heeey! Ollie her! jeg spiller en del musik og sidder pt. på vej til Cardiff i Wales for at spille med mit
+            Rockband
+            Junkyard Drive. Desuden spiller jeg en masse indie-cry-boi-folk. Jeg ser på fugle. Det var helt enkelt et
+            valg mellem fugle eller pokemon-go.
+            Glæder mig til at møde jer alle sammen!
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+</body>
+
+</html>
